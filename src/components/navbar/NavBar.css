@@ -1,6 +1,6 @@
 .nav{
     height: 10vh;
-    background-color: chocolate;
+    background-color: var(--primary);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -10,7 +10,9 @@
     height: 8vh;
 }
 
-.title{
+.burgerx{
     text-decoration: none;
+    /* color: var(--secondary); */
+    color: var(--tertiary);
 }
 

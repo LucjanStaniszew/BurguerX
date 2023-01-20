@@ -11,7 +11,7 @@ const navbar = () => {
                 <img src="./assets/BurguerX.png" alt='BurgerX Logo' className='logo'/>
               </a>
 
-              <a href='/' className='title'>
+              <a href='/' className='burgerx'>
                 <h1>
                   Burgerx
                 </h1>
