@@ -22,9 +22,9 @@ const CarruselDeComida = () => {
                 {
                 menu.map((photo) => (
                     <div key={photo.id} className={menu[currentIndex].id === photo.id ? 'fade' : 'slide fade'}>
-                    <img src={photo.img} alt={photo.name} className="promo" />
-                    <div className='title'>{photo.name}</div>                  
+                      <img src={photo.img} alt={photo.name} className="promo" />
                     </div>
+                    
                 ))
                 }
                 {/* Boton retroceder fotos */}
