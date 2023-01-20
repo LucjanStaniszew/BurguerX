@@ -1,3 +1,9 @@
+:root{
+  --primary: #CD8A39;
+  --secondary: #595D2B;
+  --tertiary: saddlebrown;
+}
+
 .App {
   text-align: center;
   margin: 0;
